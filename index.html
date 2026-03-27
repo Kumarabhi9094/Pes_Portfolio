@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Kumar | Portfolio</title>
+  <meta name="description" content="Portfolio of Abhishek Kumar - IT student, Android and Cybersecurity enthusiast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">Abhishek Kumar</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#cv">CV</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="tag">IT Student • Cybersecurity • Game Development</p>
+          <h1>Hello, I am Abhishek Kumar</h1>
+          <p class="lead">
+            I build practical software and security-focused projects, with hands-on experience in
+            Linux administration, scripting, and full-stack development.
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#contact">Contact Me</a>
+            <a class="btn btn-outline" href="#cv" target="_blank" rel="noopener">View CV</a>
+          </div>
+          <div class="quick-links">
+            <a href="https://www.linkedin.com/in/abhishekkumar9094/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/Kumarabhi9094" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:abhishekmorya90@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-card">
+          <div class="photo-placeholder">
+            <p>Add Your Profile Photo</p>
+            <span>Replace this box with your image</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I am currently pursuing a Bachelor of Technology in Information Technology at Lovely
+          Professional University. I enjoy working on cybersecurity challenges, system
+          administration, and software projects that solve real-world problems.
+        </p>
+      </div>
+    </section>
+
+    <section id="cv" class="section alt">
+      <div class="container">
+        <h2>Curriculum Vitae</h2>
+        <div class="cv-card">
+          <p class="cv-note">You can view the CV directly here or download it.</p>
+          <div class="cv-actions">
+            <a class="btn btn-primary" href="./assets/Abhishek_CV.pdf" target="_blank" rel="noopener">Open CV</a>
+            <a class="btn btn-outline" href="./assets/Abhishek_CV.pdf" download>Download CV</a>
+          </div>
+          <iframe
+            class="cv-preview"
+            src="./assets/Abhishek_CV.pdf"
+            title="Abhishek Kumar CV"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="card">
+            <h3>Languages</h3>
+            <p>Kotlin, C++, XML, Python, Java, SQL</p>
+          </article>
+          <article class="card">
+            <h3>Frameworks</h3>
+            <p>Android SDK, Jetpack Compose, Django</p>
+          </article>
+          <article class="card">
+            <h3>Security Tools</h3>
+            <p>Nmap, Burp Suite, Wireshark, Metasploit</p>
+          </article>
+          <article class="card">
+            <h3>Platforms</h3>
+            <p>Linux (Red Hat), Windows, VMware</p>
+          </article>
+          <article class="card">
+            <h3>Soft Skills</h3>
+            <p>Problem Solving, Teamwork, Time Management, Social Adaptability</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>Astitva – Capture The Flag (CTF) Cybersecurity Platform</h3>
+            <p class="meta">November 2025</p>
+            <ul>
+              <li>Built a Python full-stack CTF platform using Django with secure user authentication.</li>
+              <li>Implemented challenge management, flag validation, scoring, and live leaderboard.</li>
+              <li>Added security controls such as flag hashing, rate limiting, and activity logging.</li>
+            </ul>
+            <p class="tech"><strong>Tech:</strong> Python, Django, HTML, CSS, JavaScript, PostgreSQL, Git</p>
+            <div class="project-links">
+              <a href="https://github.com/Kumarabhi9094/Astitva_CTF">Project Code Link</a>
+              <a href="https://kumarabhi9094.pythonanywhere.com/">Live Demo Link</a>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <h3>Automated Linux System Monitoring & Security Scripting</h3>
+            <p class="meta">July 2025</p>
+            <ul>
+              <li>Developed Bash automation scripts to detect suspicious logins and monitor disk usage.</li>
+              <li>Tracked system updates and managed user sessions with standardized log reporting.</li>
+              <li>Generated actionable insights for system health and performance checks.</li>
+            </ul>
+            <p class="tech"><strong>Tech:</strong> Red Hat Linux, VMware, Shell Scripting</p>
+            <div class="project-links">
+              <a href="https://github.com/Kumarabhi9094/Shell_Scipts">Project Link</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="training" class="section alt">
+      <div class="container">
+        <h2>Training</h2>
+        <div class="list-grid">
+          <article class="card">
+            <h3>Red Hat System Administration II (RH134) – Ver. 8.2</h3>
+            <p class="meta">July 2025 – August 2025</p>
+            <p>Covered Linux system administration, user management, storage, security, and monitoring.</p>
+          </article>
+          <article class="card">
+            <h3>Red Hat System Administration I (RH124)</h3>
+            <p class="meta">May 2025 – June 2025</p>
+            <p>Learned Linux fundamentals, command-line workflows, permissions, and basic configuration.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2>Certificates</h2>
+        <div class="cert-grid">
+          <article class="cert-card">
+            <a href="./certificate/Coursera IG8TPETM8S6F.pdf" target="_blank" rel="noopener">
+              <div class="cert-image">
+                <img src="./certificate/capture_20260327075110415.bmp" alt="Red Hat System Administration Certificate Preview" />
+              </div>
+            </a>
+            <h3>Red Hat System Administration</h3>
+            <p>Red Hat • August 2025</p>
+            <a class="cert-link" href="./certificate/Coursera IG8TPETM8S6F.pdf" target="_blank" rel="noopener">Open PDF</a>
+          </article>
+          <article class="cert-card">
+            <a href="./certificate/Cryptography and Network Security.pdf" target="_blank" rel="noopener">
+              <div class="cert-image">
+                <img src="./certificate/capture_20260327075231794.bmp" alt="Cryptography and Network Security Certificate Preview" />
+              </div>
+            </a>
+            <h3>Cryptography and Network Security</h3>
+            <p>May 2025</p>
+            <a class="cert-link" href="./certificate/Cryptography and Network Security.pdf" target="_blank" rel="noopener">Open PDF</a>
+          </article>
+          <article class="cert-card">
+            <a href="./certificate/Coursera IG8TPETM8S6F.pdf" target="_blank" rel="noopener">
+              <div class="cert-image">
+                <img src="./certificate/capture_20260327075216395.bmp" alt="The Bits and Bytes of Computer Networking Certificate Preview" />
+              </div>
+            </a>
+            <h3>The Bits and Bytes of Computer Networking</h3>
+            <p>Coursera • September 2024</p>
+            <a class="cert-link" href="./certificate/Coursera IG8TPETM8S6F.pdf" target="_blank" rel="noopener">Open PDF</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section alt">
+      <div class="container">
+        <h2>Achievements</h2>
+        <div class="list-grid">
+          <article class="card">
+            <h3>Cybersecurity CTF Event Organizer</h3>
+            <p class="meta">February 2025</p>
+            <p>
+              Designed and deployed technical challenges in Web Exploitation, Cryptography,
+              and Reverse Engineering for 500+ participants.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>Lovely Professional University, Phagwara, Punjab</h3>
+            <p class="meta">B.Tech – Information Technology • Since August 2023</p>
+            <p>CGPA: 7.6</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Kendriya Vidyalaya No.2, Minnie Bay, Port Blair</h3>
+            <p class="meta">Intermediate • April 2022 – March 2023</p>
+            <p>Percentage: 90%</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Kendriya Vidyalaya No.2, Minnie Bay, Port Blair</h3>
+            <p class="meta">Matriculation • April 2020 – March 2021</p>
+            <p>Percentage: 83%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:abhishekmorya90@gmail.com">
+            <h3>Email</h3>
+            <p>abhishekmorya90@gmail.com</p>
+          </a>
+          <a class="contact-card" href="tel:+919125631469">
+            <h3>Phone</h3>
+            <p>+91-9125631469</p>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/abhishekkumar9094/" target="_blank" rel="noopener">
+            <h3>LinkedIn</h3>
+            <p>linkedin.com/in/abhishekkumar9094</p>
+          </a>
+          <a class="contact-card" href="https://github.com/Kumarabhi9094" target="_blank" rel="noopener">
+            <h3>GitHub</h3>
+            <p>github.com/Kumarabhi9094</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="theme-toggle floating" id="themeToggle" aria-label="Toggle theme">🌙</button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Abhishek Kumar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
