@@ -613,3 +613,12 @@ h2::after {
     grid-template-columns: 1fr;
   }
 }
+
+.profile-photo {
+  width: 280px;
+  aspect-ratio: 1 / 1;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 35px rgba(26, 36, 51, 0.12);
+}
